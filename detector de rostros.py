@@ -1,5 +1,5 @@
-from Emmanuel.IMG.detector import face_recognition
-from eggdriver import put, green, white, yellow
+from detector import face_recognition
+from eggdriver import put, green, white
 
 put("""
 Bienvenida/o a la aplicacion de reconocimiento facial.

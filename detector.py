@@ -174,6 +174,3 @@ def face_recognition(enrolled_path = "enrolled", searching_path = "pictures", th
     Y = get_Y(BB, N, ipath, fotos)
     scores, detect_list = detect(descriptors, Y, th)
     display_results(last_original, detect_list, BB, N, scores, ipath, fotos, display_individually)
-
-if __name__ == "__main__":
-    face_recognition("yasna", th = 0.55) # th: umbral de comparación
