@@ -12,7 +12,7 @@ if people_dir == "":
     put("""
 Ingrese la dirección de la carpeta en que se encuentran las carpetas de personas
 """ + white, green)
-people_dir = input()
+    people_dir = input()
 
 available_people = []
 
