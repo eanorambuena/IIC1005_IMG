@@ -2,8 +2,9 @@
 # mtcnn: Librería de Detección de Caras
 # opencv-contrib-python: Librería de Computer Vision
 
-import eggdriver
-#eggdriver.init() # Actualiza pip e instala todo + astropy necesario para usar Arcface preentrenada
+if __name__ == "__main__":
+    import eggdriver
+    eggdriver.init() # Actualiza pip e instala todo + astropy necesario para usar Arcface preentrenada
 
 import cv2                            # Librería OpenCV
 import matplotlib.pyplot as plt       # Librería para Visualización (gráficas, imágenes, etc.)
